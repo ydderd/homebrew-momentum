@@ -14,11 +14,11 @@ class MomentumCli < Formula
   include Language::Python::Virtualenv
 
   desc "Authenticate and bulk-upload field data to your Momentum workspace"
-  homepage "https://withflywheel.com"
+  homepage "https://momentumbots.io"
   # release.sh replaces the two PLACEHOLDER lines with the PyPI sdist URL + sha256.
-  url "https://files.pythonhosted.org/packages/b3/74/d92639ffb59f58ec0af69f700ddb91fb9325fabbc6c497272c374d1ae429/ydderd_momentum_cli-0.6.1.tar.gz"
-  version "0.6.1"
-  sha256 "12d762b9db435a901269c8f3bdf2dafa33ac20db084d10b3120a526b3b1bcd20"
+  url "https://files.pythonhosted.org/packages/63/3d/12ec0c3b241b174b4d76f4b5e11d7a5e5c288e3cb4d7d887fe4efde26730/ydderd_momentum_cli-0.6.2.tar.gz"
+  version "0.6.2"
+  sha256 "77495d229b6ac0e9023607f9efae3149bb9f8d401c5b22bf869eeb54bfbe9901"
   license "Apache-2.0"
 
   depends_on "python@3.12"
